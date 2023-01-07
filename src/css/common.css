@@ -16,3 +16,42 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  box-sizing: border-box;
+  font-size: large;
+  font-weight: bold;
+  font-size: large;
+}
+
+.timer{
+  display: flex;
+  font-family: sans-serif;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  gap: 10px;
+}
+
+.field {
+ 
+  padding: 10px;
+  border-radius: 3px;
+  background: #00bf96;
+  display: block;
+}
+
+.value {
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816a;
+  display: inline-block;
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
